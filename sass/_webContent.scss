@@ -1,0 +1,108 @@
+#webContent{
+		background-image: url(../img/mt-0808-home-header_bg.jpg);
+		background-size: cover;
+		background-attachment: fixed;
+		min-height: 700px;
+		position: relative;
+		display: flex;
+	    flex-direction: column;
+	    align-items: center;
+	    justify-content: center;
+	.ContentClass{
+		text-align: center;
+		width: 100%;
+		padding-top: 35px;
+	}
+	.text-1{
+	    text-align: center;
+	    width: 100%;
+	}
+	.text-1-desc-1{
+		margin-bottom: 0px;
+		font-weight: 400;
+	    font-style: normal;
+	    font-family: $Menu-font;
+	    color: $white-color;
+	    font-size: 12px;
+	    line-height: 2.6;
+	    letter-spacing: 2px;
+	}
+	.text-1-desc-2{
+		margin-bottom: 0px;
+		font-weight: 500;
+	    font-style: normal;
+	    font-family: $Main-font;
+	    color: $white-color;
+	    font-size: 63px;
+	    line-height: 1.2;
+	    letter-spacing: 0px;
+	}
+	.text-2{
+		width: 100%;
+		text-align: center;
+		display: -webkit-inline-box;
+	}
+	.Line{
+		width: 58%;
+		border-top-width: 3px;
+	    border-top-style: solid;
+	    border-top-color: $Menu-Pink-Color;
+
+	}
+	.text-3{
+		text-align: center;
+		width: 100%;
+	}
+	.text-3-desc{
+		font-weight: 400;
+	    font-style: normal;
+	    font-family:$Main-font;
+	    color: $white-color;
+	    font-size: 18px;
+	    line-height: 2.1;
+	    letter-spacing: 0px;
+	}
+	.salon-btn {
+
+	}
+	.salon-btn a{
+		display: inline-block;
+	    transition: .3s;
+	    border: 2px solid;
+	    letter-spacing: 1.2px;
+	    font-size: 14px;
+	    line-height: 25px;
+	    text-decoration: none;
+	    //background-color: #c1a091;
+	    //border-color: #c1a091;
+		padding: 12px 53px;
+		font-family: $Menu-font;
+	    font-weight: 400;
+	    font-style: normal;
+	    color: $white-color;
+	    background-color: #cc6b7c;
+	    border-color: transparent;
+	}
+	@media screen and (min-width:1041px){
+		
+	}
+	@media screen and (min-width:778px) and (max-width:1040px){
+		
+	}
+	@media screen and (min-width:481px) and (max-width:777px){
+		
+	}
+	@media screen and (max-width:480px){
+		
+	}
+
+}
+#webContent2{
+	.ContentClass{
+			height: 1500px;
+			width: 100%;
+			background: red;
+			height: 500px;
+		
+	}
+}

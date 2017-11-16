@@ -1,0 +1,253 @@
+.myContainer {
+  width: 1214px;
+  margin: 0 auto; }
+
+body {
+  font-weight: 400; }
+
+.header {
+  display: block;
+  height: 115px;
+  width: 100%; }
+
+#menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 500;
+  padding: 30px 0px;
+  background: white;
+  width: 100%; }
+  #menu .logo {
+    padding-left: 25px; }
+  #menu .headerDiv {
+    padding-top: 35px;
+    padding-bottom: 20px; }
+  #menu .logo-title {
+    display: inline-block; }
+    #menu .logo-title .logo-brand {
+      float: left;
+      width: 80px; }
+      #menu .logo-title .logo-brand img {
+        width: 100%;
+        max-width: 100px;
+        transition: .8s; }
+    #menu .logo-title .logo-description {
+      float: right;
+      margin-left: 33px; }
+    #menu .logo-title a {
+      font-style: normal;
+      font-family: "Montserrat", sans-serif;
+      color: #c1a091;
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 4px;
+      text-decoration: none; }
+    #menu .logo-title p {
+      color: #a79a9a;
+      text-decoration: none;
+      font-style: normal;
+      font-size: 12px;
+      line-height: 2.1;
+      font-family: "Merriweather", serif;
+      margin: 0px; }
+  #menu .menu {
+    text-align: right;
+    padding-top: 12px; }
+    #menu .menu .myActive {
+      color: #edc9bd; }
+    #menu .menu li {
+      font-family: "Montserrat", sans-serif;
+      font-size: 14px;
+      padding: 0px 20px;
+      display: inline-block;
+      margin-right: 26px; }
+      #menu .menu li a {
+        font-weight: 400;
+        display: block;
+        color: #a79a9a; }
+        #menu .menu li a:hover, #menu .menu li a:focus {
+          text-decoration: none; }
+  #menu .menu-trigger {
+    display: none; }
+  @media screen and (min-width: 767px) {
+    #menu .menu-holder {
+      position: static !important; }
+    #menu .logo-brand {
+      float: left;
+      width: 40px; }
+      #menu .logo-brand img {
+        width: 100%;
+        max-width: 100px;
+        transition: .8s; }
+    #menu .menu {
+      display: block !important;
+      text-align: right;
+      padding-top: 12px; }
+      #menu .menu .myActive {
+        color: #edc9bd; }
+      #menu .menu li {
+        font-family: "Montserrat", sans-serif;
+        font-size: 14px;
+        padding: 0px 10px;
+        display: inline-block;
+        margin-right: 0px; }
+        #menu .menu li a {
+          font-weight: 400;
+          display: block;
+          color: #a79a9a; }
+          #menu .menu li a:hover, #menu .menu li a:focus {
+            text-decoration: none; } }
+  @media screen and (max-width: 767px) {
+    #menu {
+      padding: 0px; }
+      #menu .logo {
+        padding: 10px 0px;
+        width: 88%; }
+      #menu .logo-description {
+        float: none !important; }
+      #menu .menu-holder {
+        text-align: center; }
+      #menu .logo {
+        text-align: center; }
+      #menu .logo-title {
+        width: 100%; }
+        #menu .logo-title a {
+          letter-spacing: 0px !important; }
+      #menu .menu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        width: 100%;
+        left: 0;
+        text-align: center;
+        padding-left: 0;
+        background: white;
+        margin: 0; }
+        #menu .menu li {
+          display: block;
+          margin-left: 0; }
+          #menu .menu li a {
+            float: none !important;
+            padding: 12px; }
+      #menu .menu-trigger {
+        padding-top: 10px;
+        font-size: 27px;
+        color: #c1a091;
+        background: white;
+        border: none;
+        display: inline-block; } }
+  @media screen and (min-width: 768px) and (max-width: 1058px) {
+    #menu {
+      padding: 10px 0px; }
+      #menu .logo {
+        padding-left: 0px !important; }
+      #menu .logo-title {
+        display: inline-block; }
+        #menu .logo-title .logo-brand {
+          float: left; }
+          #menu .logo-title .logo-brand img {
+            width: 70.83px; }
+        #menu .logo-title .logo-description {
+          float: right;
+          margin-left: 8px !important; }
+        #menu .logo-title a {
+          font-style: normal;
+          color: #c1a091;
+          font-size: 14px !important;
+          line-height: 1.5;
+          letter-spacing: 0px !important;
+          text-decoration: none; }
+        #menu .logo-title p {
+          color: #a79a9a;
+          text-decoration: none;
+          font-style: normal;
+          font-size: 10px !important;
+          line-height: 2.1;
+          font-family: "Merriweather", serif;
+          margin: 0px !important; } }
+
+#webContent {
+  background-image: url(../img/mt-0808-home-header_bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  #webContent .ContentClass {
+    text-align: center;
+    width: 100%;
+    padding-top: 35px; }
+  #webContent .text-1 {
+    text-align: center;
+    width: 100%; }
+  #webContent .text-1-desc-1 {
+    margin-bottom: 0px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 2.6;
+    letter-spacing: 2px; }
+  #webContent .text-1-desc-2 {
+    margin-bottom: 0px;
+    font-weight: 500;
+    font-style: normal;
+    font-family: "Merriweather", serif;
+    color: #ffffff;
+    font-size: 63px;
+    line-height: 1.2;
+    letter-spacing: 0px; }
+  #webContent .text-2 {
+    width: 100%;
+    text-align: center;
+    display: -webkit-inline-box; }
+  #webContent .Line {
+    width: 58%;
+    border-top-width: 3px;
+    border-top-style: solid;
+    border-top-color: #edc9bd; }
+  #webContent .text-3 {
+    text-align: center;
+    width: 100%; }
+  #webContent .text-3-desc {
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Merriweather", serif;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 2.1;
+    letter-spacing: 0px; }
+  #webContent .salon-btn a {
+    display: inline-block;
+    transition: .3s;
+    border: 2px solid;
+    letter-spacing: 1.2px;
+    font-size: 14px;
+    line-height: 25px;
+    text-decoration: none;
+    padding: 12px 53px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    background-color: #cc6b7c;
+    border-color: transparent; }
+
+#webContent2 .ContentClass {
+  height: 1500px;
+  width: 100%;
+  background: red;
+  height: 500px; }
+
+@media screen and (max-width: 1170px) {
+  .myContainer {
+    width: auto;
+    padding: 0 20px;
+    box-sizing: border-box; } }
+
+/*# sourceMappingURL=style.css.map */

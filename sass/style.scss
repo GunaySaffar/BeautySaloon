@@ -1,0 +1,23 @@
+$Pink-Color: #c1a091;
+$Gray-Color:#a79a9a;
+$white-color:#ffffff;
+$Menu-font: 'Montserrat', sans-serif;
+$Main-font: 'Merriweather', serif;
+$Menu-Pink-Color:#edc9bd;
+.myContainer{
+	width: 1214px;
+	margin: 0 auto;
+}
+body{
+	font-weight: 400;
+}
+@import 'menu';
+@import 'webContent';
+
+@media screen and (max-width: 1170px) {
+	.myContainer{
+		width: auto;
+		padding: 0 20px;
+		box-sizing:border-box;
+	}
+}
